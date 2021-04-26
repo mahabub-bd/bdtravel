@@ -69,13 +69,20 @@
 
 .author-contact {
   display: flex;
+  flex-wrap: wrap;
 }
-.contact,
-.follow {
+.contact {
   flex-basis: 50%;
   min-width: 600px;
-  margin-top: 50px;
-  margin-bottom: 75px;
+  margin: 50px auto 75px;
+}
+
+.follow {
+  text-align: center;
+  flex-basis: 50%;
+  min-width: 600px;
+  margin: 50px auto 75px;
+  
 }
 
 .contact-title,
