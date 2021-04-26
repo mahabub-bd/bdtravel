@@ -19,7 +19,7 @@ body {
 }
 header {
   width: 100%;
-  position: fixed;
+  position:fixed;
   top: 0;
   left: 0;
   z-index: 1;
@@ -27,7 +27,7 @@ header {
 
 /* Pre-header */
 .container {
-  max-width: 1900px;
+  max-width: 1920px;
   margin: 0 auto;
 }
 .small-container {
@@ -143,8 +143,8 @@ nav {
 /* Main-Content Start */
 main {
   width: 100%;
-  background: url(images/main.jpg);
-  height: 900px;
+  background: url(../images/main.jpg);
+  height: 880px;
   background-size: cover;
   position: relative;
 }
