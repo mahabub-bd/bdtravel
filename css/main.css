@@ -200,7 +200,7 @@ main {
   line-height: 50px;
   letter-spacing: 0.05em;
   text-transform: uppercase;
-
+  cursor: pointer;
   color: #ffffff;
 }
 
@@ -363,6 +363,7 @@ main {
 /* Newsletter */
 .newsletter {
   display: flex;
+  flex-wrap: wrap;
 }
 .newsletter .form {
   flex-basis: 50%;
@@ -416,18 +417,18 @@ input[type="email"] {
 }
 .text-box button {
   position: absolute;
-  width: 50px;
+  width: 150px;
   height: 30px;
   border: none;
   outline: none;
   background: #8ab929;
   border-radius: 2px;
-  margin-left: 570px;
+  margin-left: 470px;
   margin-top: 15px;
   font-family: Quicksand;
   font-style: normal;
   font-weight: bold;
-  font-size: 18px;
+  font-size: 16px;
   line-height: 22px;
   cursor: pointer;
   letter-spacing: 0.06em;
