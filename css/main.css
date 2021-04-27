@@ -19,7 +19,7 @@ body {
 }
 header {
   width: 100%;
-  position:fixed;
+  position: fixed;
   top: 0;
   left: 0;
   z-index: 1;
@@ -35,7 +35,7 @@ header {
   margin: 0 auto;
 }
 .pre-header-container {
-  background: #2F2F37;
+  background: #2f2f37;
 }
 .pre-header {
   display: flex;
@@ -398,14 +398,17 @@ main {
   position: relative;
   display: flex;
 }
-.text-box p {
+input[type="email"] {
   font-family: Quicksand;
   font-style: normal;
   font-weight: bold;
   font-size: 18px;
-  line-height: 22px;
-  /* identical to box height */
-
+  line-height: 60px;
+  width: 650px;
+  height: 24px;
+  padding-left: 10px;
+  border: none;
+  outline: none;
   letter-spacing: 0.06em;
   text-transform: capitalize;
   margin: 18px 0 0 42px;
@@ -509,19 +512,50 @@ footer .footer-newsletter h6 {
   position: relative;
   display: flex;
 }
-.text-box-footer p {
+.text-box-footer input[type="text"] {
   font-family: Quicksand;
   font-style: normal;
   font-weight: bold;
+  width: 550px;
   font-size: 14px;
   line-height: 45px;
-  margin-left: 42px;
+  margin-left: 0px;
+  border: none;
+  outline: none;
+  letter-spacing: 0.06em;
+  text-transform: capitalize;
+  padding-left: 10px;
+  color: #ffffff;
+  background: #555555;
+}
+
+/* Placeholder */
+
+::placeholder {
+  color: #fff;
+  padding-left: 10px;
+}
+
+#footer-form::-webkit-input-placeholder {
+  color: #efefef;
+  padding-left: 10px;
+  font-size: 14px;
+}
+
+#subscribe::-webkit-input-placeholder {
+  font-family: Quicksand;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 18px;
+  line-height: 60px;
 
   letter-spacing: 0.06em;
   text-transform: capitalize;
 
-  color: #ffffff;
+  color: rgba(10, 26, 40, 0.6);
 }
+
+/* Placeholder */
 .text-box-footer button {
   position: absolute;
   width: 50px;

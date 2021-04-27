@@ -215,6 +215,9 @@ input[type="button"] {
   color: #000000;
 }
 
+#footer-form::-webkit-input-placeholder {
+  color: #ffffff;
+}
 ::placeholder {
   padding-left: 20px;
   font-family: Quicksand;
