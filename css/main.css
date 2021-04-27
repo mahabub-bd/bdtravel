@@ -56,7 +56,7 @@ header {
   display: flex;
   align-items: center;
   line-height: 50px;
-  margin-left: 100px;
+ 
 }
 .fa-envelope,
 .fa-user {
@@ -78,7 +78,7 @@ header {
   align-items: center;
   margin-left: auto;
   font-size: 1.3rem;
-  margin-right: 100px;
+ 
 }
 .pre-header-social-link .iconify {
   margin-left: 20px;
@@ -104,7 +104,7 @@ nav {
   width: 240px;
   min-height: 40px;
   border: 2px solid #fff;
-  margin-left: 100px;
+  
   text-align: center;
 }
 
@@ -122,7 +122,7 @@ nav {
   display: flex;
   margin-left: auto;
  
-  margin-right: 100px;
+  
 }
 .nav-item {
   margin-left: 27px;
@@ -154,8 +154,8 @@ main {
   position: absolute;
   width: 650px;
   height: 300px;
-  left: 10.86%;
-  top: 35%;
+  left: 15.86%;
+  top: 45%;
   color: #fff;
   background: rgba(10, 26, 40, 0.6);
   border-radius: 4px;
@@ -185,7 +185,7 @@ main {
   text-transform: uppercase;
 }
 .main-inner-button {
-  margin: 28px auto auto 20px;
+  margin: 28px  40px;
 }
 
 .main-inner-button button {
@@ -637,10 +637,21 @@ small {
   }
   .nav-menu {
     display: flex;
-    margin-left: auto;
-    justify-content: flex-start;
+    
+    justify-content: space-between;
     align-items: flex-start;
     flex-direction: column;
    
+  }
+
+
+  nav {
+    min-height: 80px;
+    display: flex;
+    flex-wrap: wrap;
+   justify-content: space-around;
+   align-items: center;
+   
+    
   }
 }
