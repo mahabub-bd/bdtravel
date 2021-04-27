@@ -48,7 +48,7 @@ header {
   font-size: 1.2rem;
   line-height: 30px;
   /* identical to box height */
-  padding: 10px 0;
+  
   color: #ffffff;
   margin: 0 auto;
 }
@@ -96,12 +96,13 @@ nav {
   min-height: 80px;
   display: flex;
   flex-wrap: wrap;
+  justify-content: space-evenly;
   align-items: center;
 }
 
 .brand-name {
   width: 240px;
-  min-height: 50px;
+  min-height: 40px;
   border: 2px solid #fff;
   margin-left: 100px;
   text-align: center;
@@ -120,7 +121,7 @@ nav {
 .nav-menu {
   display: flex;
   margin-left: auto;
-
+ 
   margin-right: 100px;
 }
 .nav-item {
@@ -221,8 +222,8 @@ main {
   border-bottom: 1px solid #555555;
 }
 .travel-item {
-  flex-basis: 33.33%;
-  min-width: 465px;
+  flex-grow: 1;
+  flex-basis: 300px;
   text-align: center;
 }
 .circle-container {
@@ -287,7 +288,7 @@ main {
 }
 .item {
   flex-basis: 400px;
-  width: 400px;
+  
   background: #ffffff;
   box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.25);
   border-radius: 4px;
@@ -368,8 +369,8 @@ main {
   justify-content: center;
 }
 .newsletter .form {
-  flex-basis: 50%;
-  min-width: 700px;
+ 
+  flex-basis:700px;
 }
 
 .newsletter .form h1 {
@@ -617,4 +618,29 @@ small {
   letter-spacing: 0.05em;
 
   color: rgba(255, 255, 255, 0.75);
+}
+
+
+
+
+/* Media quary */
+
+@media screen and (max-width: 768px) {
+
+  .pre-header {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-content: flex-start;
+    padding: 10px;
+  }
+  .nav-menu {
+    display: flex;
+    margin-left: auto;
+    justify-content: flex-start;
+    align-items: flex-start;
+    flex-direction: column;
+   
+  }
 }

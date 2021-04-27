@@ -37,19 +37,20 @@
   display: flex;
   flex-wrap: wrap;
   align-items: center;
+  justify-content: center;
 }
 
 .login-image {
-  flex-basis: 60%;
-  min-width: 800px;
+ 
+  flex-basis: 850px;
 }
 
 .login-image img {
-  width: 800px;
+  width: 850px;
 }
 .sign-in-form {
-  flex-basis: 40%;
-  min-width: 550px;
+  
+  flex-basis: 550px;
   
 }
 

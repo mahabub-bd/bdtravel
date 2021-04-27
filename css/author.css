@@ -34,13 +34,13 @@
 }
 
 .author-main {
-  margin-top: 113px;
+  margin-top: 100px;
   display: flex;
   flex-wrap: wrap;
+  justify-content: center;
 }
 .author-description {
-  flex-basis: 50%;
-  min-width: 700px;
+  flex-basis: 700px;
 }
 .author-description h1 {
   font-family: Quicksand;
@@ -70,19 +70,18 @@
 .author-contact {
   display: flex;
   flex-wrap: wrap;
+  
 }
 .contact {
-  flex-basis: 50%;
-  min-width: 600px;
-  margin: 50px auto 75px;
+  flex-basis: 700px;
+  margin-bottom: 100px;
+  
 }
 
 .follow {
   text-align: center;
-  flex-basis: 50%;
-  min-width: 600px;
-  margin: 50px auto 75px;
-  
+  flex-basis: 700px;
+  margin-bottom: 100px;
 }
 
 .contact-title,
@@ -103,13 +102,13 @@
 .author-email,
 .author-phone {
   position: relative;
-  margin-left: 228px;
+  
   font-family: Quicksand;
   font-style: normal;
   font-weight: bold;
   font-size: 24px;
   line-height: 24px;
-  /* identical to box height */
+  text-align: center;
 
   letter-spacing: 0.03em;
   text-transform: lowercase;
@@ -121,7 +120,7 @@
   content: "\f0e0";
   font-family: "Font Awesome 5 Free";
   font-weight: 100;
-  left: -40px;
+  left:28%;
   font-size: 24px;
   color: #8ab929;
 }
