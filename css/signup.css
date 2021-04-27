@@ -96,6 +96,7 @@ input[type="password"] {
   margin: 15px 75px 15px;
   border: 1px solid #555555;
   border-radius: 2px;
+  outline: none;
 }
 
 input[type="checkbox"] {
@@ -143,6 +144,7 @@ input[type="submit"] {
   color: #ffffff;
 }
 .or {
+  position: relative;
   font-family: Quicksand;
   font-style: normal;
   font-weight: bold;
@@ -155,10 +157,13 @@ input[type="submit"] {
   margin-top: 15px;
   color: #666666;
 }
+
+
+
 input[type="button"] {
   height: 50px;
   width: 400px;
-  margin: 25px 75px 52px;
+  margin: 0px 75px 52px;
   border: 1px solid #555555;
   border-radius: 2px;
 
@@ -182,7 +187,7 @@ input[type="button"] {
 
 .signup-google img {
   position: absolute;
-  top: 36px;
+  top: 10px;
   left: 100px;
 }
 .sign-in {

@@ -36,6 +36,7 @@
 .sign-in-container {
   display: flex;
   flex-wrap: wrap;
+  align-items: center;
 }
 
 .login-image {
@@ -48,8 +49,8 @@
 }
 .sign-in-form {
   flex-basis: 40%;
-  min-height: 550px;
-  align-self: center;
+  min-width: 550px;
+  
 }
 
 .sign-in-title {
@@ -178,7 +179,7 @@ input[type="submit"] {
 input[type="button"] {
   height: 50px;
   width: 400px;
-  margin: 25px 75px 52px;
+  margin: 0px 75px 52px;
   border: 1px solid #555555;
   border-radius: 2px;
 
@@ -202,7 +203,7 @@ input[type="button"] {
 
 .signin-google img {
   position: absolute;
-  top: 36px;
+  top: 10px;
   left: 100px;
 }
 .sign-up {
