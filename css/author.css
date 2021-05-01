@@ -1,37 +1,4 @@
-.header-gap {
-  height: 130px;
-}
 
-.blog-page {
-  height: 210px;
-  display: flex;
-  background: #efefef;
-}
-.blog-page .blog-image img {
-  color: rgba(85, 85, 85, 0.7);
-  margin-top: 154px;
-  margin-left: 360px;
-  font-size: 30px;
-}
-
-.blog-page .less-than img {
-  color: rgba(85, 85, 85, 0.7);
-  margin-top: 161px;
-  margin-left: 16px;
-  font-size: 30px;
-}
-.blog-page h1 {
-  color: rgba(85, 85, 85, 0.7);
-  margin-top: 158px;
-  margin-left: 16px;
-  font-family: Roboto;
-  font-style: normal;
-  font-weight: 500;
-  font-size: 24px;
-  line-height: 28px;
-  letter-spacing: 0.03em;
-  text-transform: uppercase;
-}
 
 .author-main {
   margin-top: 100px;

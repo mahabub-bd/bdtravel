@@ -47,10 +47,14 @@ header {
   font-weight: 500;
   font-size: 1.2rem;
   line-height: 30px;
-  /* identical to box height */
 
   color: #ffffff;
   margin: 0 auto;
+}
+
+.communication {
+  display: flex;
+  justify-content: space-between;
 }
 .email {
   display: flex;
@@ -99,21 +103,21 @@ nav {
 }
 
 .brand-name {
-  width: 240px;
+  width: 250px;
   min-height: 40px;
   border: 2px solid #fff;
 
   text-align: center;
 }
 
-.brand-name h1 {
+.brand-name h1 a {
   font-family: Monda;
   font-style: normal;
   font-weight: bold;
   font-size: 1.625rem;
   line-height: 50px;
   letter-spacing: 0.05em;
-
+  text-decoration: none;
   color: #ffffff;
 }
 .nav-menu {
@@ -150,16 +154,17 @@ nav {
 main {
   width: 100%;
   background: url(../images/main.jpg);
-  height: 950px;
+  height: 100%;
   background-size: cover;
   position: relative;
   display: flex;
+  object-fit: cover;
 }
 .main-inner {
   position: absolute;
-  width: 35%;
-  height: 300px;
-  left: 15.86%;
+  width: 35vw;
+  height: 35vh;
+  left: 10.86%;
   top: 45%;
   color: #fff;
   background: rgba(10, 26, 40, 0.6);
@@ -171,7 +176,7 @@ main {
   font-family: Roboto;
   font-style: normal;
   font-weight: normal;
-  font-size: 2.25rem;
+  font-size: 1.7vw;
   line-height: 42px;
   letter-spacing: 0.05em;
   text-transform: capitalize;
@@ -184,7 +189,7 @@ main {
   text-align: left;
   font-style: normal;
   font-weight: normal;
-  font-size: 1.5rem;
+  font-size: 1vw;
   line-height: 28px;
   letter-spacing: 0.05em;
   text-transform: uppercase;
@@ -194,7 +199,7 @@ main {
 }
 
 .main-inner-button button {
-  width: 280px;
+  width: 15vw;
   height: 50px;
   border: none;
   outline: none;
@@ -203,7 +208,7 @@ main {
   font-family: Roboto;
   font-style: normal;
   font-weight: normal;
-  font-size: 24px;
+  font-size: 1.1vw;
   line-height: 50px;
   letter-spacing: 0.05em;
   text-transform: uppercase;
@@ -215,7 +220,42 @@ main {
   margin-left: 36px;
 }
 /* Main End */
+.header-gap {
+  height: 130px;
+}
+.blog-page-container {
+  background: #efefef;
+}
+.blog-page {
+  height: 210px;
+  display: flex;
+  background: #efefef;
+}
+.blog-page .blog-image img {
+  color: rgba(85, 85, 85, 0.7);
+  margin-top: 154px;
 
+  font-size: 30px;
+}
+
+.blog-page .less-than img {
+  color: rgba(85, 85, 85, 0.7);
+  margin-top: 161px;
+  margin-left: 16px;
+  font-size: 30px;
+}
+.blog-page h1 {
+  color: rgba(85, 85, 85, 0.7);
+  margin-top: 158px;
+  margin-left: 16px;
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 28px;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+}
 /* Travel Start */
 
 .travel {
@@ -655,29 +695,99 @@ small {
   margin-top: 6px;
 }
 
-.pagination button {
+.pagination a {
   font-family: Roboto;
   font-style: normal;
   font-weight: 500;
-  font-size: 12px;
+  font-size: 14px;
   line-height: 24px;
   /* identical to box height */
   padding: 0 7px;
   letter-spacing: 0.03em;
   text-transform: capitalize;
-  background: transparent;
-  color: #555555;
+  color: #666666;
+  outline: none;
   border: 1px solid #8ab929;
   cursor: pointer;
-  border-radius: 2px;
-  overflow: hidden;
+  border-radius: 4px;
+
+  text-decoration: none;
 }
 
-.page-active {
+.pagination a.page-active {
   background: #8ab929;
   color: #fff;
 }
+
 /* Media quary */
+
+@media screen and (max-width: 1080px) {
+  main {
+    max-width: 100%;
+    background: url(../images/main.jpg);
+
+    background-size: cover;
+    position: relative;
+    display: flex;
+  }
+
+  .main-inner {
+    position: absolute;
+    width: 25.69%;
+    height: 19.68%;
+    left: 10.86%;
+    top: 60%;
+    color: #fff;
+    background: rgba(10, 26, 40, 0.6);
+    border-radius: 4px;
+  }
+
+  .main-inner .main-inner-title {
+    text-align: center;
+    margin-top: 5px;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 0.8rem;
+    line-height: 42px;
+    letter-spacing: 0.05em;
+    text-transform: capitalize;
+  }
+  .main-inner .main-inner-description {
+    margin-top: 5px;
+
+    font-family: Roboto;
+    text-align: left;
+    margin: 0 20px;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 0.6rem;
+    line-height: 15px;
+
+    text-transform: uppercase;
+  }
+  .main-inner-button {
+    margin: 10px 20px;
+  }
+
+  .main-inner-button button {
+    width: 140px;
+    height: 15px;
+    border: none;
+    outline: none;
+    background: #8ab929;
+    border-radius: 4px;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 0.5rem;
+    line-height: 15px;
+    letter-spacing: 0.05em;
+    text-transform: uppercase;
+    cursor: pointer;
+    color: #ffffff;
+  }
+}
 
 @media screen and (max-width: 768px) {
   .pre-header {
@@ -686,7 +796,12 @@ small {
     flex-direction: column;
     justify-content: flex-start;
     align-content: flex-start;
-    padding: 10px;
+    padding: 10px 10px;
+  }
+
+  .pre-header-social-link {
+    display: flex;
+    margin: 0;
   }
   .nav-menu {
     display: flex;
@@ -695,13 +810,17 @@ small {
     align-items: flex-start;
     flex-direction: column;
   }
-
+  .communication {
+    display: flex;
+    margin-left: 20px;
+  }
   nav {
     min-height: 80px;
     display: flex;
     flex-wrap: wrap;
     justify-content: space-around;
     align-items: center;
+    padding: 10px 20px;
   }
 
   main {
@@ -716,7 +835,7 @@ small {
   .main-inner {
     position: absolute;
     width: 50%;
-
+    height: 20%;
     left: 10.86%;
     top: 60%;
     color: #fff;
@@ -726,7 +845,7 @@ small {
 
   .main-inner .main-inner-title {
     text-align: center;
-    margin-top: 10px;
+    margin-top: 5px;
     font-family: Roboto;
     font-style: normal;
     font-weight: normal;
@@ -736,24 +855,24 @@ small {
     text-transform: capitalize;
   }
   .main-inner .main-inner-description {
-    margin-top: 10px;
+    margin-top: 5px;
 
     font-family: Roboto;
     text-align: left;
     font-style: normal;
     font-weight: normal;
-    font-size: 1rem;
+    font-size: 0.8rem;
     line-height: 28px;
-    letter-spacing: 0.05em;
+    letter-spacing: 0.02em;
     text-transform: uppercase;
   }
   .main-inner-button {
-    margin: 28px 40px;
+    margin: 14px 40px;
   }
 
   .main-inner-button button {
-    width: 180px;
-    height: 30px;
+    width: 140px;
+    height: 20px;
     border: none;
     outline: none;
     background: #8ab929;
@@ -761,8 +880,8 @@ small {
     font-family: Roboto;
     font-style: normal;
     font-weight: normal;
-    font-size: 1rem;
-    line-height: 30px;
+    font-size: 0.7rem;
+    line-height: 20px;
     letter-spacing: 0.05em;
     text-transform: uppercase;
     cursor: pointer;
