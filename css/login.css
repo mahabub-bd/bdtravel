@@ -57,7 +57,7 @@ label {
   letter-spacing: 0.03em;
   text-transform: capitalize;
   margin: 0 75px 0;
-  color: #555555;
+  color: #666666;
 }
 
 input[type="email"],
@@ -65,8 +65,8 @@ input[type="password"] {
   width: 400px;
   height: 50px;
   margin: 15px 75px 15px;
-  border: 1px solid #555555;
-  border-radius: 2px;
+  border: 1px solid #eaeaea;
+  border-radius: 3px;
 }
 
 input[type="checkbox"] {
@@ -74,7 +74,7 @@ input[type="checkbox"] {
   height: 20px;
 
   border: 1px solid #555555;
-  border-radius: 2px;
+  border-radius: 3px;
   margin-top: 25px;
 }
 .login-checkbox {
@@ -118,7 +118,7 @@ input[type="submit"] {
   border: none;
   outline: none;
   background: #8ab929;
-  border-radius: 2px;
+  border-radius: 3px;
   font-family: Quicksand;
   font-style: normal;
   font-weight: 500;
@@ -148,7 +148,7 @@ input[type="button"] {
   width: 400px;
   margin: 0px 75px 52px;
   border: 1px solid #555555;
-  border-radius: 2px;
+  border-radius: 3px;
 
   outline: none;
   font-family: Quicksand;
