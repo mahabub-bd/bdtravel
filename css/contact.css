@@ -41,32 +41,32 @@ input[type="email"] {
   height: 30px;
   border: none;
   outline: none;
-  border: 1px solid rgba(102, 102, 102, 0.8);
-  border-radius: 2px;
+  border: 1px solid #eaeaea;
+  border-radius: 3px;
   margin-right: 10px;
   margin-bottom: 20px;
-  color: rgba(102, 102, 102, 0.8);
+  color: rgba(102, 102, 102, 0.5);
 }
 input[type="search"] {
   width: 430px;
   height: 30px;
   border: none;
   outline: none;
-  border: 1px solid rgba(102, 102, 102, 0.8);
-  border-radius: 2px;
+  border: 1px solid #eaeaea;
+  border-radius: 3px;
   margin-right: 20px;
   margin-bottom: 20px;
-  color: rgba(102, 102, 102, 0.8);
+  color: rgba(102, 102, 102, 0.5);
 }
 
 input[type="tel"] {
   border: none;
   width: 430px;
   height: 60px;
-  color: rgba(102, 102, 102, 0.8);
+  color: rgba(102, 102, 102, 0.5);
   outline: none;
-  border: 1px solid rgba(102, 102, 102, 0.8);
-  border-radius: 2px;
+  border: 1px solid #eaeaea;
+  border-radius: 3px;
   margin-bottom: 20px;
 }
 input[type="submit"] {
