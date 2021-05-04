@@ -67,7 +67,10 @@ input[type="password"] {
   margin: 15px 75px 15px;
   border: 1px solid #eaeaea;
   border-radius: 3px;
+
+  text-transform: lowercase;
 }
+
 
 input[type="checkbox"] {
   width: 20px;
