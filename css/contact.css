@@ -6,15 +6,14 @@
 
 .contact {
   display: flex;
- max-width: 900px;
+  max-width: 900px;
   flex-wrap: wrap;
-  justify-content:center;
+  justify-content: center;
   margin: 30px auto;
 }
 .contact-form {
   flex-basis: 450px;
   margin-top: 50px;
-  
 }
 .contact-info {
   flex-basis: 450px;
@@ -46,6 +45,7 @@ input[type="email"] {
   margin-right: 10px;
   margin-bottom: 20px;
   color: rgba(102, 102, 102, 0.5);
+  padding-left: 10px;
 }
 input[type="search"] {
   width: 430px;
@@ -57,6 +57,7 @@ input[type="search"] {
   margin-right: 20px;
   margin-bottom: 20px;
   color: rgba(102, 102, 102, 0.5);
+  padding-left: 10px;
 }
 
 input[type="tel"] {
@@ -68,6 +69,7 @@ input[type="tel"] {
   border: 1px solid #eaeaea;
   border-radius: 3px;
   margin-bottom: 20px;
+  padding-left: 10px;
 }
 input[type="submit"] {
   font-family: Roboto;
@@ -89,8 +91,8 @@ input[type="submit"] {
   height: 30px;
 }
 ::placeholder {
-  padding-left: 20px;
-  color: #666666;
+  padding-left: 10px;
+  color: rgba(102, 102, 102, 0.5);
 }
 
 .contact-description {
@@ -116,7 +118,7 @@ input[type="submit"] {
   height: 40px;
   text-align: center;
   line-height: 40px;
-  border: 1px solid #555555;
+  border: 1px solid #eaeaea;
   box-sizing: border-box;
   border-radius: 2px;
 }

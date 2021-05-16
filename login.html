@@ -78,7 +78,7 @@
             <h1><a href="index.html">BD TRAVEL</a></h1>
           </div>
 
-          <div class="nav-menu">
+          <div class="nav-menu" id="myLinks" >
             <div class="nav-item">
               <a href="index.html">Home</a>
             </div>
@@ -108,6 +108,10 @@
               ></a>
             </div>
           </div>
+
+          <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+            <i class="fa fa-bars"></i>
+          </a>
         </nav>
       </div>
     </header>
@@ -225,6 +229,19 @@
     </footer>
 
     <!-- Footer  -->
+
+<!-- Custom JS -->
+<script>
+  function myFunction() {
+    var x = document.getElementById("myLinks");
+    if (x.style.display === "block") {
+      x.style.display = "none";
+    } else {
+      x.style.display = "block";
+    }
+  }
+  </script>
+
     <!-- Iconify CSS Link -->
     <script src="https://code.iconify.design/1/1.0.7/iconify.min.js"></script>
 
